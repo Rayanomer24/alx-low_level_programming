@@ -7,7 +7,7 @@
 void print_rev(char *s)
 {
 	int n, i;
-	s = "hello";
+	s = "Holberton!";
 	n = strlen(s);
 	for (i = n-1; i >= 0; i--)
 	{
