@@ -2,11 +2,12 @@
 #include <stdio.h>
 
 /**
- * _strstr - prints the consecutive caracters of l that are in p. 
+ * _strstr - function finds the first occurrence of the substring needle in the string haystack. 
  * @haystack: source string 
  * @needle: searching string
  * Return: new string.
  */
+
 char *_strstr(char *haystack, char *needle)
 {		
 	for (; *haystack != '\0'; haystack++)
@@ -21,6 +22,5 @@ char *_strstr(char *haystack, char *needle)
 		if (*p == '\0')
 			return (haystack);
 	}
-
 	return (NULL);
 }
