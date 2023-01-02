@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strstr - prints the consecutive caracters of s1 that are in s2. 
+ * _strstr - prints the consecutive caracters of l that are in p. 
  * @haystack: source string 
  * @needle: searching string
  * Return: new string.
